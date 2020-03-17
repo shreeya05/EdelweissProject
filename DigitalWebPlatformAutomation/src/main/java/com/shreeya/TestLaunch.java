@@ -13,7 +13,7 @@ public class TestLaunch {
 	static WebDriver driver;
 	public static void main(String[] args) throws InterruptedException {
 		TestLaunch launch=new TestLaunch();
-		
+		System.out.println("Start Execution...........");
 		LoginPage login=new LoginPage();
 		driver=login.loginExecution();
 		NewOrderPage newOrder=new NewOrderPage();
